@@ -1,4 +1,4 @@
-# Copyright (c) Anish Athalye (me@anishathalye.com)
+# Copyright (c) Hamed Tavakoli Dastjerdi (me@qerope.me)
 #
 # This software is released under AGPLv3. See the included LICENSE.txt for
 # details.

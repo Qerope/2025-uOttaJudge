@@ -58,5 +58,5 @@ If you have any questions about anything, feel free to [ask][email]!
 [issue]: https://github.com/qerope/uottajudge/issues/new
 [issues]: https://github.com/qerope/uottajudge/issues
 [fork]: https://github.com/qerope/uottajudge/fork
-[email]: mailto:me@anishathalye.com
+[email]: mailto:me@qerope.me
 [commit-messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html

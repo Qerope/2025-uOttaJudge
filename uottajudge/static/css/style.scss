@@ -184,7 +184,8 @@ hr {
 }
 
 [name="action"] {
-  aspect-ratio: 1;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
 .compact {
@@ -206,6 +207,7 @@ hr {
   margin-right: auto;
   padding: 10px;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  z-index: -1;
   background-color: $dark;
 }
 
@@ -216,14 +218,17 @@ hr {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  width: 50px; 
+  width: 35%; 
   height: 50px; 
   background-size: contain;
   background-repeat: no-repeat; 
   margin-left: 20px;
-  filter: invert(100%); /* Inverts the colors of the logo to white */
 }
-
+@media (max-width: 768px) {
+  .banner::before {
+    display: none;
+  }
+}
 
 .banner-tight {
   @extend .banner;
@@ -245,18 +250,26 @@ hr {
 
 #previous-header {
   background-color: $previous-color;
+  border-radius: 0rem;
 }
 
 #previous-body {
   background-color: mix($previous-color, white, 25%);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #current-header {
   background-color: $current-color;
+  border-radius: 0rem;
 }
 
 #current-body {
   background-color: mix($current-color, white, 25%);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #vote-header {
@@ -319,15 +332,17 @@ input[type=submit] {
 
 #vote-submit {
   background-color: $vote-submit-color;
+  margin: 10px;
 }
 
 #vote-submit:disabled {
-  background-color: $light-grey;
+  background-color: $dark;
   border: none;
 }
 
 .radio-button {
   display: inline-block;
+  margin: 10px;
 }
 
 .radio-button > input {
@@ -343,7 +358,6 @@ input[type=submit] {
   color: $light;
   font-size: 1.2rem;
   font-weight: bold;
-  text-transform: lowercase;
   text-align: center;
 }
 

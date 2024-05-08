@@ -23,12 +23,14 @@
         <label for="vote-continue-radio">Continue</label>
       </div>
 
+      <input type="submit" name="action" value="Submit" id="vote-submit" class="button-full button-gap">
+
+
       <div id="vote-skip" class="radio-button button-full button-gap">
         <input type="radio" name="action" id="vote-skip-radio" value="Skip" checked>
         <label for="vote-skip-radio">Skip</label>
       </div>
 
-      <input type="submit" name="action" value="Submit" id="vote-submit" class="button-full button-gap">
 
       <input type="hidden" name="item_id" value="{{ item.id }}">
       <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
