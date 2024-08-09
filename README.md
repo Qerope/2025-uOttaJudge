@@ -1,14 +1,14 @@
 # uOttaJudge
 
-**uOttaJudge** is a powerful project expo judging system tailored for hackathons and similar events. Crafted by Hamed Tavakoli Dastjerdi, it provides a reliable and efficient platform for evaluating projects showcased at events like uOttaHack.
+**uOttaJudge** is a powerful project expo judging system tailored for uOttaHack hackathon and other events; It provides a reliable and efficient platform for evaluating projects showcased.
 
 ## Design
 
-uOttaJudge operates on the principle of pairwise comparisons, offering a distinctive approach to project evaluation. Before implementing uOttaJudge, it's recommended to delve into its underlying philosophy and practical usage. Begin by reading insightful blog posts on [design][blog-1] and [implementation][blog-2].
+uOttaJudge operates on the principle of pairwise comparisons, offering a distinctive approach to project evaluation.
 
 ## Status
 
-uOttaJudge is a stable software solution, having demonstrated its reliability through successful deployments at events like uOttaHack. While it presents a novel approach to project judging, it's essential to thoroughly test and understand the system before integrating it into your event. Deploy the system in advance, explore its features, and refer to the provided documentation for guidance.
+uOttaJudge is currently a stable software solution; however, it's essential to thoroughly test and understand the system before integrating it into your event. Deploy the system in advance, explore its features, and refer to the provided documentation for guidance.
 
 ## Deployment
 
@@ -30,18 +30,3 @@ Administer uOttaJudge through the intuitive admin interface accessible at `/admi
 
 Interested in contributing to uOttaJudge? Excellent! Refer to the [DEVELOPMENT.md](https://github.com/qerope/uottajudge/blob/master/DEVELOPMENT.md) file for a comprehensive guide on setting up a development environment. Whether you're fixing bugs, adding features, or improving documentation, your contributions are valued and appreciated.
 
-## Notes
-
-If you decide to utilize uOttaJudge for your event, we'd love to hear about your experience. Share your feedback, suggestions, or success stories by reaching out via email ([me@qerope.me](mailto:me@qerope.me)). Your insights help us enhance the software and cater to the needs of diverse event organizers.
-
-## Citation
-
-If you incorporate uOttaJudge into academic work or research, please cite it using the provided BibTeX citation:
-
-```bibtex
-@misc{athalye2016uottajudge,
-  author = {Hamed Tavakoli Dastjerdi},
-  title = {uOttaJudge},
-  year = {2024},
-  howpublished = {\url{https://github.com/qerope/uottajudge}},
-}
